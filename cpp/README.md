@@ -22,7 +22,7 @@
   <circle cx="76" cy="26" r="6" fill="#22c55e" fill-opacity="0.8"/>
   <!-- Title -->
   <text x="480" y="95" font-family="Georgia, serif" font-size="42" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="3">CocAgent</text>
-  <text x="480" y="135" font-family="Georgia, serif" font-size="24" fill="#60a5fa" text-anchor="middle" letter-spacing="2">C++ Learning Path</text>
+  <text x="480" y="135" font-family="Georgia, serif" font-size="24" fill="#60a5fa" text-anchor="middle" letter-spacing="2">C++ AHappyNet</text>
   <text x="480" y="175" font-family="monospace" font-size="15" fill="#6b7280" text-anchor="middle">45 tuần · ~540 giờ · Foundation → Development → DSA</text>
   <text x="480" y="210" font-family="monospace" font-size="13" fill="#374151" text-anchor="middle">Từ Hello World đến Engineer-Ready · C++17/20 · GoogleTest · CMake · Algorithms</text>
 </svg>
@@ -39,7 +39,7 @@
 
 ## Tầm nhìn
 
-Chương trình **CocAgent C++ Learning Path** được thiết kế với một nguyên tắc duy nhất:
+Chương trình **CocAgent C++ AHappyNet** được thiết kế với một nguyên tắc duy nhất:
 
 > *Dạy ít hơn nhưng dạy đúng hơn — để học viên thực sự hiểu, không chỉ copy-paste.*
 
@@ -51,7 +51,7 @@ Ba repo tạo thành một hệ sinh thái học tập liên tục, mỗi khóa 
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────┐
-│                        CocAgent C++ Learning Path                              │
+│                        CocAgent C++ AHappyNet                              │
 ├─────────────────────┬──────────────────────────┬──────────────────────────────┤
 │  ① cpp-foundation   │    ② cpp-development      │    ③ dsa-cpp-course          │
 │  ─────────────────  │    ──────────────────────  │    ────────────────────────  │
@@ -221,7 +221,7 @@ Roadmap (Phase 3):
 
 <br/>
 
-*CocAgent C++ Learning Path · MIT License*
+*CocAgent C++ AHappyNet · MIT License*
 *Đóng góp, góp ý: mở Issue tại repo tương ứng*
 
 </div>
