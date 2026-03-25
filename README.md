@@ -1,312 +1,284 @@
 <div align="center">
 
-# 🌐 AHappyNet
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%">
+  <defs>
+    <linearGradient id="rootbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050a14"/>
+      <stop offset="50%" style="stop-color:#0d1628"/>
+      <stop offset="100%" style="stop-color:#050e1a"/>
+    </linearGradient>
+    <linearGradient id="pyline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3776AB;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#3776AB;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#3776AB;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#3776AB;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="cppline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00599C;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#00599C;stop-opacity:0.5"/>
+      <stop offset="70%" style="stop-color:#00599C;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#00599C;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="masline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#7c3aed;stop-opacity:0.6"/>
+      <stop offset="70%" style="stop-color:#7c3aed;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="320" rx="16" fill="url(#rootbg)"/>
 
-**A community-driven hub for deep, production-grade AI education**
+  <!-- Top stripes -->
+  <rect x="0"   y="0" width="320" height="4" rx="2" fill="url(#pyline)"/>
+  <rect x="320" y="0" width="320" height="4" rx="2" fill="url(#cppline)"/>
+  <rect x="640" y="0" width="320" height="4" rx="2" fill="url(#masline)"/>
 
-*From theory to deployment — one learning track at a time*
+  <!-- Bottom stripes -->
+  <rect x="0"   y="316" width="320" height="4" rx="2" fill="url(#pyline)"/>
+  <rect x="320" y="316" width="320" height="4" rx="2" fill="url(#cppline)"/>
+  <rect x="640" y="316" width="320" height="4" rx="2" fill="url(#masline)"/>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tracks](https://img.shields.io/badge/Active%20Tracks-1-brightgreen)]()
-[![Courses](https://img.shields.io/badge/Courses-5-blue)]()
-[![Language](https://img.shields.io/badge/Language-Python%203.11+-blue)]()
+  <!-- Dividers -->
+  <line x1="320" y1="30" x2="320" y2="290" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="640" y1="30" x2="640" y2="290" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Python -->
+  <text x="160" y="85"  font-family="monospace" font-size="12" fill="#3776AB" fill-opacity="0.5" text-anchor="middle">python · data · automation</text>
+  <text x="160" y="140" font-family="Georgia, serif" font-size="36" fill="white" text-anchor="middle" font-weight="bold">🐍 Python</text>
+  <text x="160" y="175" font-family="monospace" font-size="14" fill="#60a5fa" text-anchor="middle">5 Khóa · 72 Tuần</text>
+  <text x="160" y="205" font-family="monospace" font-size="12" fill="#374151" text-anchor="middle">Journey → Mastery</text>
+  <text x="160" y="225" font-family="monospace" font-size="12" fill="#374151" text-anchor="middle">DSA · Data · Automation</text>
+
+  <!-- C++ -->
+  <text x="480" y="85"  font-family="monospace" font-size="12" fill="#00599C" fill-opacity="0.5" text-anchor="middle">systems · performance · algorithms</text>
+  <text x="480" y="140" font-family="Georgia, serif" font-size="36" fill="white" text-anchor="middle" font-weight="bold">⚙️ C++</text>
+  <text x="480" y="175" font-family="monospace" font-size="14" fill="#93c5fd" text-anchor="middle">3 Khóa · 45 Tuần</text>
+  <text x="480" y="205" font-family="monospace" font-size="12" fill="#374151" text-anchor="middle">Foundation → Development</text>
+  <text x="480" y="225" font-family="monospace" font-size="12" fill="#374151" text-anchor="middle">DSA · Algorithms</text>
+
+  <!-- MAS -->
+  <text x="800" y="85"  font-family="monospace" font-size="12" fill="#7c3aed" fill-opacity="0.5" text-anchor="middle">agents · marl · llm · research</text>
+  <text x="800" y="140" font-family="Georgia, serif" font-size="36" fill="white" text-anchor="middle" font-weight="bold">🤖 MAS</text>
+  <text x="800" y="175" font-family="monospace" font-size="14" fill="#c4b5fd" text-anchor="middle">5 Khóa · 65 Tuần</text>
+  <text x="800" y="205" font-family="monospace" font-size="12" fill="#374151" text-anchor="middle">Theory → Engineering</text>
+  <text x="800" y="225" font-family="monospace" font-size="12" fill="#374151" text-anchor="middle">MARL · LLM · Capstone</text>
+
+  <!-- Bottom total -->
+  <text x="480" y="298" font-family="monospace" font-size="12" fill="#1e3a5f" text-anchor="middle">CocAgent Learning Platform · 182 tuần · ~1.820 giờ · 3 chương trình · 72+ dự án</text>
+</svg>
+
+<br/>
+
+[![Python](https://img.shields.io/badge/🐍%20Python-5%20Khóa%20·%2072%20Tuần-3776AB?style=for-the-badge)](python/README.md)
+[![C++](https://img.shields.io/badge/⚙️%20C%2B%2B-3%20Khóa%20·%2045%20Tuần-00599C?style=for-the-badge)](cpp/README.md)
+[![MAS](https://img.shields.io/badge/🤖%20Multi--Agent%20Systems-5%20Khóa%20·%2065%20Tuần-7c3aed?style=for-the-badge)](mas/README.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Duy trì](https://img.shields.io/badge/Duy%20trì-Có-brightgreen?style=flat-square)](#)
+[![Đóng góp](https://img.shields.io/badge/Đóng%20góp-Hoan%20nghênh-f59e0b?style=flat-square)](CONTRIBUTING.md)
 
 </div>
 
 ---
 
-## What is AHappyNet?
+## Tầm nhìn
 
-**AHappyNet** is an open educational platform that organizes deep technical learning into structured, production-first **learning tracks**. Each track is a self-contained program spanning theory, engineering, and research — designed to carry you from first principles to deployed, evaluated systems.
+> *Xây dựng lộ trình học lập trình và AI **có cấu trúc**, **thực hành trước lý thuyết**, và **liên kết chặt chẽ** giữa các khóa — để người học không chỉ biết viết code, mà biết tại sao mình viết như vậy, và cuối cùng có thể tự đặt câu hỏi nghiên cứu và trả lời chúng.*
 
-This repository is the **entry point and coordinator** of the ecosystem. It maps the learning landscape, connects tracks, and sets shared standards that apply across every course.
+Đây là repo trung tâm điều phối toàn bộ hệ sinh thái khóa học của **CocAgent**. Mỗi chương trình là một lộ trình độc lập nhưng được thiết kế để bổ trợ cho nhau.
+
+---
+
+## Ba chương trình đào tạo
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🐍 Lộ trình Python
+
+**5 khóa · 72 tuần · ~720 giờ**
+
+| # | Khóa | Trình độ | Thời gian |
+|---|------|----------|-----------|
+| ① | [python-journey](https://github.com/CocAgent/python-journey) | Mới bắt đầu | 15 tuần |
+| ② | [python-mastery](https://github.com/CocAgent/python-mastery) | Trung cấp | 12 tuần |
+| ③ | [dsa-python](https://github.com/CocAgent/dsa-python-course) | Trung cấp+ | 15 tuần |
+| ④ | [data-python](https://github.com/CocAgent/data-python-course) | Trung cấp+ | 15 tuần |
+| ⑤ | [automation-python](https://github.com/CocAgent/automation-python-course) | Trung cấp+ | 15 tuần |
+
+**→ [Xem lộ trình Python đầy đủ](python/README.md)**
+
+</td>
+<td width="33%" valign="top">
+
+### ⚙️ Lộ trình C++
+
+**3 khóa · 45 tuần · ~540 giờ**
+
+| # | Khóa | Trình độ | Thời gian |
+|---|------|----------|-----------|
+| ① | [cpp-foundation](https://github.com/CocAgent/cpp-foundation) | Mới bắt đầu | 15 tuần |
+| ② | [cpp-development](https://github.com/CocAgent/cpp-development) | Trung cấp | 15 tuần |
+| ③ | [dsa-cpp](https://github.com/CocAgent/dsa-cpp-course) | Trung cấp+ | 15 tuần |
+
+<br/>
+
+**→ [Xem lộ trình C++ đầy đủ](cpp/README.md)**
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Lộ trình Multi-Agent Systems
+
+**5 khóa · 65 tuần · ~560 giờ**
+
+| # | Khóa | Trình độ | Thời gian |
+|---|------|----------|-----------|
+| ① | [mas-foundations](https://github.com/CocAgent/mas-foundations) | Nhập môn | 13 tuần |
+| ② | [mas-programming](https://github.com/CocAgent/mas-programming) | Trung cấp | 13 tuần |
+| ③ | [mas-marl](https://github.com/CocAgent/mas-marl) | Nâng cao | 13 tuần |
+| ④ | [mas-llm-agents](https://github.com/CocAgent/mas-llm-agents) | Nâng cao | 13 tuần |
+| ⑤ | [mas-capstone](https://github.com/CocAgent/mas-capstone) | Nghiên cứu | 13 tuần |
+
+**→ [Xem lộ trình MAS đầy đủ](mas/README.md)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## Chọn điểm bắt đầu
 
 ```
-AHappyNet
-│
-├── 🤖  Multi-Agent Systems         ← Active · 5 courses · 65 weeks
-├── 🧠  Deep Learning Engineering   ← Planned
-├── 📊  MLOps & AI Systems          ← Planned
-└── 🔬  AI Safety & Alignment       ← Planned
-```
-
-> **Core philosophy**: Every track is production-first. No demo-only notebooks.  
-> Every concept taught is also deployed, evaluated, and documented as research.
-
----
-
-## 🤖 Multi-Agent Systems Track
-
-> *From symbolic agents to LLM orchestration — build systems that think, coordinate, and learn.*
-
-The MAS Track is a 5-course, 65-week program that teaches you to design, implement, and research intelligent systems composed of multiple interacting agents. It moves systematically through four paradigms — theory, engineering, learning, and language — before synthesizing them in an open-ended research capstone.
-
-### Track at a Glance
-
-| | Course | Duration | Paradigm | Focus |
-|---|--------|----------|----------|-------|
-| 1️⃣ | [MAS Foundations](#course-1--mas-foundations) | 13 weeks | Theory | BDI, game theory, mechanism design, emergence |
-| 2️⃣ | [MAS Programming](#course-2--mas-programming--simulation) | 13 weeks | Engineering | Jason, SPADE, Mesa, protocols, testing |
-| 3️⃣ | [MARL](#course-3--multi-agent-reinforcement-learning) | 13 weeks | Learning | QMIX, MADDPG, MAPPO, self-play |
-| 4️⃣ | [LLM Agents](#course-4--llm-multi-agent-systems--orchestration) | 13 weeks | Language | LangGraph, CrewAI, RAG, deployment |
-| 5️⃣ | [Capstone Studio](#course-5--capstone-research-studio) | 13 weeks | Research | Integration project + research paper |
-
-**Total**: 65 weeks · ~325 hours · entry to publication-quality research
-
----
-
-## Course 1 · MAS Foundations
-
-**Repository**: [`mas-foundations`](https://github.com/CocAgent/mas-foundations)
-
-The theoretical backbone of the entire track. Establishes the vocabulary — agents, rationality, BDI reasoning, Nash Equilibrium, mechanism design — that every subsequent course builds on.
-
-**You build**: Schelling segregation model · 8-strategy Prisoner's Dilemma tournament · Vickrey + First-price auction simulator · Mesa emergence simulations
-
-**Key insight**: Intelligence in multi-agent systems emerges from *interactions*, not from individual agents alone.
-
-→ [Full README](https://github.com/CocAgent/mas-foundations#readme) · [Week-by-week notes](https://github.com/CocAgent/mas-foundations/tree/master/weeks)
-
----
-
-## Course 2 · MAS Programming & Simulation
-
-**Repository**: [`mas-programming`](https://github.com/CocAgent/mas-programming)
-
-Bridges theory to production code. Every K1 concept is implemented, tested, and stress-tested. Introduces professional skills rarely taught alongside agent theory: testing multi-agent systems, profiling at scale, and modeling trust.
-
-**You build**: BDI agent in Python + Jason · Full FIPA Contract Net Protocol (5-phase, with timeout and failure) · SEIR epidemic on 3 network topologies · ACO for TSP · Boids flocking · Nagel–Schreckenberg traffic · Beta reputation system with deceptive agent detection
-
-**40+ unit tests** · SPADE XMPP integration · async testing patterns
-
-**Key insight**: The same BDI loop that looks clean on paper requires careful engineering. Testing, error handling, and timing matter enormously.
-
-→ [Full README](https://github.com/CocAgent/mas-programming#readme) · [Week-by-week notes](https://github.com/CocAgent/mas-programming/tree/master/weeks)
-
----
-
-## Course 3 · Multi-Agent Reinforcement Learning
-
-**Repository**: [`mas-marl`](https://github.com/CocAgent/mas-marl)
-
-The learning paradigm: agents that discover strategies through experience. Covers the complete MARL landscape from first principles (why IQL fails) to state-of-the-art (QMIX, MADDPG, MAPPO) to the engineering discipline that produces credible results.
-
-**You build**: Double DQN · QMIX with GRU agent network + hypernetwork · MADDPG · MAPPO · CommNet + DIAL learned communication · TicTacToe self-play with ELO + policy pool of 50 · Lagrangian safe MARL
-
-**45+ unit tests** · TensorBoard integration · reproducibility standard (5 seeds, mean ± std, Welch's t-test)
-
-**Key insight**: Agents can discover strategies no one programmed — but only with careful experiment design, or you can't tell signal from noise.
-
-→ [Full README](https://github.com/CocAgent/mas-marl#readme) · [Week-by-week notes](https://github.com/CocAgent/mas-marl/tree/master/weeks)
-
----
-
-## Course 4 · LLM Multi-Agent Systems & Orchestration
-
-**Repository**: [`mas-llm-agents`](https://github.com/CocAgent/mas-llm-agents)
-
-Applies multi-agent principles to the most commercially relevant paradigm in applied AI today. Production-first: the standard is not "runs in a notebook" but "deployed, evaluated, cost-tracked, and secured."
-
-**You build**: ReAct from scratch (no framework) · Reflexion loop · Tree of Thoughts BFS · LangGraph research pipeline with HITL · CrewAI 3-agent crew · AutoGen GroupChat with code execution · ChromaDB + BM25 hybrid RAG · LLM-as-Judge with position-bias mitigation · 3-tier ModelRouter (60–80% cost reduction) · Prompt injection defense + PIIDetector · FastAPI + Docker + Prometheus + circuit breaker
-
-**55+ unit tests** · All labs run mock-mode (no API keys needed)
-
-**Key insight**: LLM agents are powerful but expensive and fragile. Engineering discipline separates prototypes from production.
-
-→ [Full README](https://github.com/CocAgent/mas-llm-agents#readme) · [Week-by-week notes](https://github.com/CocAgent/mas-llm-agents/tree/master/weeks)
-
----
-
-## Course 5 · Capstone Research Studio
-
-**Repository**: [`mas-capstone`](https://github.com/CocAgent/mas-capstone)
-
-Not a course — a research studio. Teams of 2–4 build a production multi-agent system integrating K1–K4 knowledge, run controlled experiments, analyze emergent behaviors, and produce a publication-quality paper.
-
-**Four flagship projects**:
-
-| Project | Research Question | K1–K4 Integration |
-|---------|------------------|--------------------|
-| [Agent Tutor System](https://github.com/CocAgent/mas-capstone/tree/master/projects/project-01-agent-tutor) | Does adaptive content delivery improve learning? | BDI + RAG + LLM-Judge |
-| [Agent Research Team](https://github.com/CocAgent/mas-capstone/tree/master/projects/project-02-research-team) | Can agents write expert-rated literature reviews? | Protocols + CrewAI + Reflexion |
-| [MARL Market Simulator](https://github.com/CocAgent/mas-capstone/tree/master/projects/project-03-market-simulator) | When does price discovery peak? | Game Theory + Mesa + QMIX |
-| [Adaptive Learning Coordinator](https://github.com/CocAgent/mas-capstone/tree/master/projects/project-04-adaptive-coordinator) | Does AI allocation reduce at-risk students? | Mechanism design + MARL + FastAPI |
-
-**Final deliverables**: Working system (Docker Compose) + Research paper (NeurIPS format) + Demo Day
-
-→ [Full README](https://github.com/CocAgent/mas-capstone#readme) · [Studio guide](https://github.com/CocAgent/mas-capstone/blob/master/docs/studio-guide.md) · [Week-by-week notes](https://github.com/CocAgent/mas-capstone/tree/master/weeks)
-
----
-
-## Who Is This For?
-
-**Primary audience**: Software engineers and CS students who want to move beyond single-model AI and build *systems* where multiple agents reason, communicate, and coordinate.
-
-### Entry Points by Background
-
-| Your Background | Recommended Start |
-|---|---|
-| CS fundamentals, no prior AI | Course 1 |
-| Comfortable with Python + basic ML | Course 2 or 3 |
-| Know RL, want multi-agent depth | Course 3 (skim K1–K2 theory) |
-| LLM engineer wanting MAS foundations | Course 4 (read K1–K2 theory) |
-| Researcher ready to build | Course 5 (requires K1–K4 competence) |
-
-### Prerequisites
-
-```
-Python 3.x proficiency
-    └──► Course 1   (no other prerequisites)
-              └──► Course 2   (K1 required)
-                        └──► Course 3   (K1+K2, PyTorch helpful)
-                                  └──► Course 4   (K1–K3 recommended)
-                                            └──► Course 5   (K1–K4 required)
+Bạn là...                                      Bắt đầu từ
+────────────────────────────────────────────────────────────────────────
+Hoàn toàn mới với lập trình              →    python-journey
+Biết Python, muốn chuyên nghiệp hóa     →    python-mastery
+Muốn vào Data Science / AI              →    python-journey → mastery → data
+Muốn vào DevOps / SRE / Automation      →    python-journey → mastery → automation
+Muốn phỏng vấn kỹ thuật (Python)        →    python-journey → mastery → dsa-python
+Học C++ từ đầu                          →    cpp-foundation
+Biết C++11/14, muốn Modern C++          →    cpp-development
+Muốn phỏng vấn kỹ thuật (C++)          →    cpp-foundation → development → dsa-cpp
+Học cả Python lẫn C++ song song         →    python-journey + cpp-foundation
+Muốn nghiên cứu AI / hệ đa tác nhân    →    mas-foundations (cần Python cơ bản)
+Engineer muốn hiểu sâu MARL + LLM      →    mas-marl hoặc mas-llm-agents
+Muốn build production multi-agent AI   →    mas-llm-agents → mas-capstone
 ```
 
 ---
 
-## What You Gain
+## Tổng hợp số liệu
 
-**After Course 1**: Formal vocabulary for multi-agent systems; ability to model strategic interactions; simulation fluency.
-
-**After Course 2**: Production BDI agents; XMPP-based multi-agent communication; simulation at scale; MAS testing and security.
-
-**After Course 3**: MARL algorithms from scratch (QMIX, MADDPG, MAPPO); reproducible research practice; self-play and emergent behavior analysis.
-
-**After Course 4**: LLM agent engineering end-to-end: from ReAct to production FastAPI; RAG; cost optimization; security; evaluation.
-
-**After Course 5**: A production multi-agent system; a research paper; the ability to independently scope and execute AI research.
-
----
-
-## Concepts Across the Track
-
-The same ideas deepen across all five courses:
-
-| Concept | K1 | K2 | K3 | K4 | K5 |
-|---------|-----|-----|-----|-----|-----|
-| **BDI** | Theory | Jason + Python | — | ReAct loop | StudentModel |
-| **Communication** | FIPA-ACL spec | SPADE XMPP | — | Tool calling | Agent interfaces |
-| **Shared Memory** | Blackboard concept | SPADE impl | — | SharedAgentMemory | K4 + Redis |
-| **Coordination** | Contract Net | Full CNP | CTDE | CrewAI | All 4 projects |
-| **Simulation** | Mesa intro | Mesa advanced | RL environments | — | Market simulator |
-| **Evaluation** | — | Unit tests | ELO + statistics | LLM-as-Judge | Full harness |
-| **Safety** | Mechanism design | FIPA validation | Lagrangian MARL | Guardrails | Production audit |
-| **Emergence** | Schelling, ACO | Boids, traffic | Hide-and-Seek | — | Market behaviors |
+|  | 🐍 Python | ⚙️ C++ | 🤖 MAS | **Tổng** |
+|--|-----------|--------|--------|----------|
+| **Số khóa** | 5 | 3 | 5 | **13** |
+| **Số tuần** | 72 | 45 | 65 | **182** |
+| **Giờ học** | ~720h | ~540h | ~560h | **~1.820h** |
+| **Bài tập** | 475+ | 340+ | 280+ | **1.095+** |
+| **Dự án** | 40+ | 14+ | 20+ | **74+** |
+| **Ngôn ngữ** | Python 3.11+ | C++17/20 | Python 3.11+ | — |
 
 ---
 
-## Standards Shared Across All Tracks
+## 🤖 Chương trình Multi-Agent Systems — Chi tiết
 
-Every course in the AHappyNet ecosystem follows these non-negotiable standards:
+> *Từ lý thuyết tác nhân đến hệ thống LLM sản xuất — xây dựng hệ thống biết suy nghĩ, phối hợp và học hỏi.*
 
-- **All code** has type hints, docstrings, and a passing test suite
-- **All systems** run without API keys via `--mock` flag
-- **All courses** include cost analysis and security considerations
-- **All capstone projects** produce a deployable system and a research document
-- **Experiments** report mean ± std over ≥5 seeds with statistical significance tests
+### Tổng quan lộ trình
 
----
-
-## AHappyNet Ecosystem
-
-The MAS Track is one program within the AHappyNet ecosystem. Planned tracks will follow the same structure:
+Lộ trình MAS là chương trình 5 khóa, 65 tuần, đưa người học qua bốn mô hình tư duy về tác nhân thông minh — lý thuyết, lập trình, học máy, và ngôn ngữ — trước khi tổng hợp tất cả trong một dự án nghiên cứu mở.
 
 ```
-AHappyNet
-│
-├── 🤖 Multi-Agent Systems      ← Active (5 courses)
-│
-├── 🧠 Deep Learning Engineering   ← Planned
-│   Neural architectures → training pipelines → deployment
-│
-├── 📊 MLOps & AI Systems          ← Planned
-│   Data pipelines → model serving → monitoring → A/B testing
-│
-└── 🔬 AI Safety & Alignment       ← Planned
-    Interpretability → RLHF → Constitutional AI → red-teaming
+Khóa 1          Khóa 2          Khóa 3          Khóa 4          Khóa 5
+FOUNDATIONS ──► PROGRAMMING ──► MARL       ──► LLM-AGENTS ──► CAPSTONE
+Lý thuyết       Lập trình        Học máy         Ngôn ngữ        Nghiên cứu
+BDI · Nash      Jason · SPADE    QMIX · MADDPG   LangGraph       Dự án tích hợp
+Mechanism       Mesa · CNP       MAPPO · ELO     CrewAI · RAG    Paper + Deploy
 ```
 
-Shared infrastructure between tracks:
-- Assessment rubric design philosophy
-- Code quality standards (ruff, mypy, pytest)
-- Deployment templates (Docker, FastAPI, CI/CD)
-- Research paper standards (NeurIPS format, reproducibility)
+### Năm khóa học
+
+| | Khóa | Vai trò | Bạn xây dựng |
+|--|------|---------|-------------|
+| **K1** | [MAS Foundations](https://github.com/CocAgent/mas-foundations) | Nền tảng lý thuyết: BDI, lý thuyết trò chơi, cơ chế phối hợp, mô phỏng | Schelling model · Giải đấu PD · Đấu giá Vickrey |
+| **K2** | [MAS Programming](https://github.com/CocAgent/mas-programming) | Kỹ thuật thực tế: Jason, SPADE, Mesa nâng cao, giao thức | BDI Python/Jason · CNP đầy đủ · SEIR · ACO · Boids |
+| **K3** | [MARL](https://github.com/CocAgent/mas-marl) | Học từ kinh nghiệm: DQN, QMIX, MADDPG, self-play | QMIX PyTorch · MADDPG · CommNet · ELO self-play |
+| **K4** | [LLM Agents](https://github.com/CocAgent/mas-llm-agents) | Orchestration hiện đại: LangGraph, CrewAI, RAG, triển khai | ReAct · LangGraph · Hybrid RAG · FastAPI + Docker |
+| **K5** | [Capstone Studio](https://github.com/CocAgent/mas-capstone) | Nghiên cứu tích hợp: 4 dự án flagship, thực nghiệm, báo cáo | Hệ thống sản xuất + Bài báo nghiên cứu |
+
+### Năng lực đầu ra
+
+Sau khi hoàn thành toàn bộ lộ trình MAS, bạn có thể:
+
+- **Thiết kế** kiến trúc hệ thống đa tác nhân từ đầu, biện hộ cho từng quyết định
+- **Triển khai** các thuật toán MARL cốt lõi (QMIX, MADDPG, MAPPO) từ scratch bằng PyTorch
+- **Xây dựng** hệ thống LLM multi-agent sản xuất: RAG, LangGraph, bảo mật, giám sát chi phí
+- **Đánh giá** hệ thống AI một cách khoa học: 5 seeds, mean ± std, kiểm định thống kê
+- **Nghiên cứu** một câu hỏi mở: đặt giả thuyết, thiết kế thực nghiệm, phân tích kết quả
+
+**→ [Xem lộ trình MAS đầy đủ với curriculum 13 tuần của từng khóa](mas/README.md)**
 
 ---
 
-## Getting Started
+## Tài nguyên dùng chung
 
-```bash
-# Choose your entry point (see table above)
-# Then clone the appropriate repository:
-
-git clone https://github.com/CocAgent/mas-foundations.git    # Start here if new
-# or
-git clone https://github.com/CocAgent/mas-programming.git
-# or
-git clone https://github.com/CocAgent/mas-marl.git
-# or
-git clone https://github.com/CocAgent/mas-llm-agents.git
-# or
-git clone https://github.com/CocAgent/mas-capstone.git        # After completing K1–K4
-
-# Each repository has the same first two steps:
-cd <repo>
-python labs/lab-00-setup/verify_setup.py
-```
+| Nguồn | Python | C++ | MAS |
+|-------|--------|-----|-----|
+| [docs.python.org](https://docs.python.org/3/) | ✅ Tài liệu chính | — | ✅ |
+| [cppreference.com](https://cppreference.com) | — | ✅ Tài liệu chính | — |
+| [TheAlgorithms](https://github.com/TheAlgorithms) | ✅ Python repo | ✅ C++ repo | — |
+| [LeetCode](https://leetcode.com) | ✅ DSA | ✅ DSA | — |
+| [Visualgo.net](https://visualgo.net) | ✅ Trực quan hoá | ✅ Trực quan hoá | — |
+| [Real Python](https://realpython.com) | ✅ Hướng dẫn | — | — |
+| [Fluent Python](https://www.oreilly.com/library/view/fluent-python-2nd/9781492056348/) | ✅ Nâng cao | — | — |
+| [PPP2 — Stroustrup](http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%20-%202024%20-%20D/CSE%20%20IT%20AIDS%20ML/Programming%20%20Principles%20and%20Practice%20Using%20C++%20(2024).pdf) | — | ✅ Foundation+Dev | — |
+| [MARL Book — Albrecht et al.](https://www.marl-book.com) | — | — | ✅ Khóa 3 |
+| [AI Engineering — C. Huyen](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) | — | — | ✅ Khóa 4 |
+| [Introduction to MAS — Wooldridge](https://www.wiley.com/en-us/Introduction+to+MultiAgent+Systems%2C+2nd+Edition-p-9780470519462) | — | — | ✅ Khóa 1–2 |
 
 ---
 
-## Contributing
+## Triết lý chung
 
-AHappyNet is open to contributions across all courses:
+Tất cả khóa học trong hệ sinh thái này chia sẻ bốn nguyên tắc:
 
-- **Corrections and improvements**: open an issue or PR in the relevant course repository
-- **New labs or examples**: follow the `labs/` structure of the relevant course
-- **Paper additions**: add to `resources/papers.md` with a one-sentence annotation
-- **New learning tracks**: open an issue in this repository with a track scope proposal
+**1. Hiểu trước khi dùng** — Mỗi tính năng được giới thiệu kèm *tại sao* nó tồn tại và *vấn đề gì* nó giải quyết.
 
-See `CONTRIBUTING.md` for style guidelines and review process.
+**2. Code đúng hơn code chạy** — "Chạy được" là điều kiện cần, không phải đủ. Mỗi bài đều có tiêu chí chất lượng code rõ ràng.
+
+**3. Kiểm thử không phải tùy chọn** — pytest (Python/MAS), GoogleTest (C++) được tích hợp từ giữa lộ trình, không phải bổ sung ở cuối.
+
+**4. Tài liệu gốc là nguồn chân lý** — Học viên được hướng dẫn đọc docs.python.org, cppreference, FIPA specs, arXiv papers — không phụ thuộc vào tutorial thứ cấp.
+
+**5. Sản xuất trước notebook** *(riêng MAS)* — Mọi hệ thống được deploy, đánh giá và bảo mật. Không demo-only.
 
 ---
 
-## Reference Index
+## Roadmap
 
-### Textbooks
+Xem chi tiết tại [`ROADMAP.md`](ROADMAP.md).
 
-| Book | Track Usage |
-|---|---|
-| Wooldridge — *Introduction to MultiAgent Systems* (2nd Ed.) | K1, K2, K5 |
-| Shoham & Leyton-Brown — *Multiagent Systems* (free PDF) | K1, K3 |
-| Sutton & Barto — *Reinforcement Learning: An Introduction* | K3 |
-| Albrecht et al. — *Multi-Agent Deep RL* (free PDF) | K3 |
-| Chip Huyen — *AI Engineering* | K4 |
+**Phase hiện tại (Phase 1):** 13 khóa học nền tảng đang hoạt động.
 
-### Key Papers
+**Phase 2:** Web Python · ML Python · Systems C++ · Embedded C++ · Deep Learning Engineering
 
-| Paper | Course |
-|---|---|
-| Rao & Georgeff (1995) — BDI Agents | K1–K2 |
-| Mnih et al. (2015) — DQN | K3 |
-| Rashid et al. (2018) — QMIX | K3 |
-| Lowe et al. (2017) — MADDPG | K3 |
-| Baker et al. (2019) — Emergent Tool Use | K3 |
-| Yao et al. (2022) — ReAct | K4 |
-| Shinn et al. (2023) — Reflexion | K4 |
-| Lewis et al. (2020) — RAG | K4 |
-| Zheng et al. (2023) — LLM-as-Judge | K4 |
-| Greshake et al. (2023) — Prompt Injection | K4 |
-| Henderson et al. (2018) — Deep RL that Matters | K3, K5 |
+**Phase 3:** Auto-grading · Bảng điều khiển tiến độ · CI/CD thống nhất · MLOps Track · AI Safety Track
 
-Full annotated reading lists are in `resources/papers.md` in each course repository.
+---
+
+## Đóng góp
+
+Xem [`CONTRIBUTING.md`](CONTRIBUTING.md) để biết cách đóng góp bài tập, sửa lỗi, hoặc đề xuất nội dung mới.
 
 ---
 
 <div align="center">
 
-**AHappyNet** · Open Education · Production-First · Research-Driven
+**[🐍 Python](python/README.md)** · **[⚙️ C++](cpp/README.md)** · **[🤖 Multi-Agent Systems](mas/README.md)** · **[Roadmap](ROADMAP.md)** · **[Đóng góp](CONTRIBUTING.md)**
 
-*Build things that matter, then tell the world about them.*
+*MIT License · CocAgent Learning Platform · Cập nhật lần cuối: 2025*
 
 </div>
