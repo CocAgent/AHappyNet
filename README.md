@@ -123,12 +123,12 @@
 
 | # | Khóa | Tuần |
 |---|------|------|
-| ① | [mas-bootcamp](https://github.com/CocAgent/mas-bootcamp) | 10W |
-| ② | [mas-communication](https://github.com/CocAgent/mas-communication) | 13W |
-| ③ | [mas-protocols](https://github.com/CocAgent/mas-protocols) | 13W |
-| ④ | [modern-agent-protocols](https://github.com/CocAgent/modern-agent-protocols) | 13W |
-| ⑤ | [mas-coordination](https://github.com/CocAgent/mas-coordination) | 13W |
-| ⑥ | [mas-production](https://github.com/CocAgent/mas-production) | 16W |
+| ① | [aap-bootcamp](https://github.com/CocAgent/aap-bootcamp) | 10W |
+| ② | [aap-communication](https://github.com/CocAgent/aap-communication) | 13W |
+| ③ | [aap-protocols](https://github.com/CocAgent/aap-protocols) | 13W |
+| ④ | [aap-modern](https://github.com/CocAgent/aap-modern) | 13W |
+| ⑤ | [aap-coordination](https://github.com/CocAgent/aap-coordination) | 13W |
+| ⑥ | [aap-production](https://github.com/CocAgent/aap-production) | 16W |
 
 **→ [Xem lộ trình AAP đầy đủ](aip/README.md)**
 
@@ -167,12 +167,12 @@ Muốn phỏng vấn kỹ thuật (Python)               →    python-journey �
 Học C++ từ đầu                                 →    cpp-foundation
 Biết C++11/14, muốn Modern C++                 →    cpp-development
 Muốn phỏng vấn kỹ thuật (C++)                  →    cpp-foundation → cpp-development → dsa-cpp
-Mới với hệ đa tác nhân, muốn bắt đầu nhanh    →    mas-bootcamp (AAP P1)
+Mới với hệ đa tác nhân, muốn bắt đầu nhanh    →    aap-bootcamp (AAP P1)
 Muốn hiểu sâu lý thuyết AI agent               →    mas-foundations (MAS K1)
 Biết Python, muốn học MARL                     →    mas-marl (MAS K3)
 LLM engineer muốn build production MAS         →    mas-llm-agents → mas-capstone
-Muốn học giao thức A2A / MCP hiện đại          →    modern-agent-protocols (AAP P4)
-Muốn deploy agent lên Kubernetes               →    mas-production (AAP P6)
+Muốn học giao thức A2A / MCP hiện đại          →    aap-modern (AAP P4)
+Muốn deploy agent lên Kubernetes               →    aap-production (AAP P6)
 Muốn nghiên cứu AI / xuất bản paper            →    MAS K1–K4 → mas-capstone
 Dev 1-2 năm, code chạy nhưng rối              →    sae-thinking (SAE K1)
 Muốn học kiến trúc phần mềm                   →    sae-architecture (SAE K2)
