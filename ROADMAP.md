@@ -38,12 +38,12 @@
 
 | Repo | Trạng thái | Nội dung | Ghi chú |
 |------|-----------|---------|---------|
-| [mas-bootcamp](https://github.com/CocAgent/mas-bootcamp) | 🟡 Đang phát triển | W01–W10 | Bootcamp nhanh |
-| [mas-communication](https://github.com/CocAgent/mas-communication) | 🟡 Đang phát triển | W01–W13 | Agent communication |
-| [mas-protocols](https://github.com/CocAgent/mas-protocols) | 🟡 Đang phát triển | W01–W13 | Protocol design |
-| [modern-agent-protocols](https://github.com/CocAgent/modern-agent-protocols) | 🟡 Đang phát triển | W01–W13 | MCP · A2A |
-| [mas-coordination](https://github.com/CocAgent/mas-coordination) | 🟡 Đang phát triển | W01–W13 | Coordination |
-| [mas-production](https://github.com/CocAgent/mas-production) | 🟡 Đang phát triển | W01–W16 | K8s · Production |
+| [aap-bootcamp](https://github.com/CocAgent/aap-bootcamp) | 🟡 Đang phát triển | W01–W10 | Bootcamp nhanh |
+| [aap-communication](https://github.com/CocAgent/aap-communication) | 🟡 Đang phát triển | W01–W13 | Agent communication |
+| [aap-protocols](https://github.com/CocAgent/aap-protocols) | 🟡 Đang phát triển | W01–W13 | Protocol design |
+| [aap-modern](https://github.com/CocAgent/aap-modern) | 🟡 Đang phát triển | W01–W13 | MCP · A2A |
+| [aap-coordination](https://github.com/CocAgent/aap-coordination) | 🟡 Đang phát triển | W01–W13 | Coordination |
+| [aap-production](https://github.com/CocAgent/aap-production) | 🟡 Đang phát triển | W01–W16 | K8s · Production |
 
 ### 🏛️ Software Architecture & Engineering (Phase 1) `MỚI`
 
