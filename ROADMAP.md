@@ -31,7 +31,7 @@
 | [mas-foundations](https://github.com/CocAgent/mas-foundations) | 🟡 Đang phát triển | W01–W13 | Lý thuyết MAS |
 | [mas-programming](https://github.com/CocAgent/mas-programming) | 🟡 Đang phát triển | W01–W13 | Lập trình agent |
 | [mas-marl](https://github.com/CocAgent/mas-marl) | 🟡 Đang phát triển | W01–W13 | Multi-Agent RL |
-| [mas-llm-agents](https://github.com/CocAgent/mas-llm-agents) | 🟡 Đang phát triển | W01–W13 | LLM-based agents |
+| [mas-llm](https://github.com/CocAgent/mas-llm) | 🟡 Đang phát triển | W01–W13 | LLM-based agents |
 | [mas-capstone](https://github.com/CocAgent/mas-capstone) | 🟡 Đang phát triển | W01–W13 | Capstone project |
 
 ### 🔗 AI Agent Protocols (Phase 1)
