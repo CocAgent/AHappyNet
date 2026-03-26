@@ -219,7 +219,7 @@ Giao thức là tập hợp quy tắc điều phối nhiều agent hoàn thành 
 
 ---
 
-## Khóa 4 — Modern Agent Protocols
+## Khóa 4 — AAP Modern
 
 **Repo**: [aap-modern](https://github.com/CocAgent/aap-modern) · 13 tuần · Trung cấp+
 
