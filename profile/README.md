@@ -48,7 +48,7 @@
 </tr>
 </table>
 
-**→ [Xem toàn bộ lộ trình tại learning-path](https://github.com/CocAgent/learning-path)**
+**→ [Xem toàn bộ lộ trình tại learning-path](https://github.com/CocAgent/AHappyNet)**
 
 ---
 
